@@ -15,13 +15,13 @@ function setAction() {
 
 
   if (webLink === '') {
-    setErrorFor(form.elements['web-link'], 'le champ desktop tracké vide !')
+    setErrorFor(form.elements['web-link'], 'le champ desktop tracké est vide !')
   } else {
     setSuccessFor(form.elements['web-link'])
   }
 
   if (mobileLink === '') {
-    setErrorFor(form.elements['mobile-link'], 'le champ mobile tracké vide !')
+    setErrorFor(form.elements['mobile-link'], 'le champ mobile tracké est vide !')
   } else {
     setSuccessFor(form.elements['mobile-link'])
   }
