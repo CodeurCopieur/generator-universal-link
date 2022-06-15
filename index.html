@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generator universal link</title>
+
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+</head>
+
+<body>
+  <div class="container">
+    
+
+    <div class="header">
+      <h1>Generator universal link</h1>
+    </div>
+
+      <form class="form">
+        <div class="form-control">
+          <label>Lien desktop tracké : </label>
+          <input id="web-link" name="web-link" type="text">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small></small>
+        </div>
+        <div class="form-control">
+          <label>Lien mobile tracké : </label>
+          <input id="mobile-link" name="mobile-link" type="text">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small></small>
+        </div>
+        <div class="form-control">
+          <input id="submit" type="submit" value="Générer">
+        </div>
+      </form>
+      <div class="universal-link">
+        <h3>Votre lien universel</h3>
+        <p id="result"></p>
+        <button class="copy-btn" onclick="copyClipboard()"></button>
+        <div class="copied" id="copied">
+          <span>Copié !</span>
+        </div>
+      </div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
