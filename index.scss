@@ -16,12 +16,17 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+
+@media only screen and (max-width: 768px)  {
+  .container {
+    width: 80%;
+  }
+}
+
 .container {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
-  //width: 60%;
-  max-width: 60%;
   margin: 0 auto;
   overflow: hidden;
 }
